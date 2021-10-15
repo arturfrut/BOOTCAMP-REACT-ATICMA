@@ -1,0 +1,187 @@
+/*NAV ***********************************************************/
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+#logoimg{
+    width: 20%;
+    margin:0px 60px 0px 60px ;
+}
+
+.nav-link{
+    font-size: 18px;
+    color: #5d009b !important;
+}
+
+
+
+
+/*CAROUSEL***********************************************************/
+
+
+
+.carousel-item{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.carousel-item:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.carousel-item>h3{
+    color:white;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    text-align: center;
+}
+
+/**CARDS *******************************************/
+
+#cardsTittle{
+    text-align: center;
+    position: relative;
+    color: #5d009b;
+    margin: 100px 0px 50px 100px;
+}
+
+.flexContain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card{
+    flex: 0 0 400px;
+    padding: 30px;
+    margin: 50px 0px 50px 0px;
+}
+
+
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.2s;
+    box-shadow: 0 3px 9px 0 rgba(61,61,61,0.91) ;
+}
+
+/**FOOTER *******************************************/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    height: 100%;
+    background-color: #5d009b;
+    color: white;
+}
+
+#icons{
+    font-size: 40px;
+}
+
+/************************************************************************/
+/************************************************************************/
+/*****************CONTACT SECTION ***************************************/
+/************************************************************************/
+/************************************************************************/
+
+/*****FORM************************************************/
+
+
+.form{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+#companyImg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;  
+}
+
+.form >form {
+    padding: 30px;
+}
+
+.form-label {
+    color: white;
+    font-weight: 500;
+}
+
+
+/************************************************************************/
+/************************************************************************/
+/*****************JS EXERCISES SECTION ***************************************/
+/************************************************************************/
+/************************************************************************/
+
+/*Sticky nav*/
+.ex{
+    position:sticky;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    background: #fff;
+    z-index: 100;
+}
+
+#bgvideo{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;  
+}
+
+.exercisesHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.exercise-card > h2,.exercise-card > h3,.exercise-card > p, .exercise-card label  {
+    color: white;
+}
+
+.exercisesHeader > h1,.exercisesHeader > h2{
+    color: white;
+}
+
+.containerExercises{
+    display: flex;
+    flex-direction: column;
+}
+
+.exercise-card{
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 10px;
+    padding: 20px;
+}
