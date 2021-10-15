@@ -3,7 +3,7 @@
 
 ### La web esta alojada en:
 
-https://bootcamp-react-aticma.000webhostapp.com/pages/jsExercises.html
+https://bootcamp-react-aticma.000webhostapp.com/
 
 ### Importante, sección JAVASCRIPT!
 
